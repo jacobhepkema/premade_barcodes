@@ -3,7 +3,7 @@
 <mark>**Note: shuffle the set before selecting elements!**</mark> This way this hopefully retains diversity across libraries - it would not be very nice if many libraries ended up using the first $x$ elements, for instance. (Not sure if having this repo in the first place is a good idea.)
 
 This repo contains text files with pre-computed barcodes of certain length with certain distances between them.
-E.g. barcodes/barcodes.12bp.hamming3.txt gives you a set of 12 bp barcodes with Hamming distance 3 between them.
+E.g. `barcodes/barcodes.12bp.hamming3.txt` gives you a set of 12 bp barcodes with Hamming distance 3 between them.
 
 
 
