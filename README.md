@@ -18,3 +18,15 @@ write.table(data.frame(mySet),
             file = "barcodes/barcodes.12bp.hamming3.txt", sep="\t",
             col.names = FALSE, row.names = FALSE, quote = FALSE)
 ```
+
+
+## Barcode set sizes
+
+| Barcode size (bp)  | Minimum Hamming distance (bp) | Set size | Algorithm |
+| ------------- | ------------- | ------------- | ------------- |
+| 4  | 3  | 12  | Conway |
+| 6  | 3  | 76  |Conway |
+| 8  | 3  |  701 | Conway |
+| 10  | 3  | 9154  |Conway |
+| 12 | 3  | 98527  |Conway |
+
